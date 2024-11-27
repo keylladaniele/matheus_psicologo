@@ -2,7 +2,6 @@ import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
-import { BookingComponent } from './booking/booking.component';
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { BenefitsComponent } from './benefits/benefits.component';
@@ -10,7 +9,7 @@ import { BenefitsComponent } from './benefits/benefits.component';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, HeaderComponent, FooterComponent, BookingComponent, AboutComponent, ContactComponent, BenefitsComponent],
+  imports: [RouterOutlet, HeaderComponent, FooterComponent, AboutComponent, ContactComponent, BenefitsComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
