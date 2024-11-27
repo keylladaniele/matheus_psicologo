@@ -1,0 +1,41 @@
+img {
+  padding: 30px 0;
+  width: 100%;
+  max-width: 450px;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  img {
+    width: 80vw;
+    max-width: none;
+  }
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #EFEDEE;
+  font-weight: bold;
+  font-size: 16px;
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@media (max-width: 768px) {
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    padding: 0;
+    margin: 0;
+  }
+
+  nav ul li a {
+    width: 100%;
+    text-align: center;
+    padding: 10px 0; 
+  }
+}

@@ -1,0 +1,70 @@
+
+#sobre {
+  background-color: #EFEDEE;
+  padding: 2vw 9vw !important;
+  margin: 0;
+}
+
+#sobre h2 {
+  color: #0A3144;
+  margin-bottom: 20px;
+}
+
+.perfil {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.perfil-foto {
+  padding-top: 20px;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.perfil-foto img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.perfil-texto {
+  flex: 2;
+  color: #313131;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.social-links {
+  margin-top: 20px;
+}
+
+.social-links a {
+  text-decoration: none;
+  color: #3D91BE;
+  margin-right: 15px;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.social-links a:hover {
+  color: #0A3144;
+}
+
+@media (max-width: 768px) {
+  .perfil {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .perfil-foto {
+    margin-bottom: 20px;
+  }
+
+  .perfil-texto {
+    font-size: 14px; 
+  }
+}

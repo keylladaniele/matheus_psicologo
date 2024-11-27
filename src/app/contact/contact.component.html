@@ -1,0 +1,9 @@
+<section id="contato" style="background-color: #EFEDEE; padding: 40px;">
+  <hr>
+  <h2>Entre em Contato | Agende sua Consulta</h2>
+  <form (submit)="redirectToWhatsApp($event)">
+    <input type="text" placeholder="Seu Nome" [(ngModel)]="userName" name="userName" required />
+    <textarea placeholder="Mensagem" [(ngModel)]="userMessage" name="userMessage" required></textarea>
+    <button type="submit">Enviar pelo WhatsApp</button>
+  </form>
+</section>

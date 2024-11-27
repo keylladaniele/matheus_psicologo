@@ -1,1 +1,104 @@
-/* You can add global styles to this file, and also import other style files */
+/* Estilos Globais */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #EFEDEE;
+  color: #313131;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #0A3144;
+  padding: 20px;
+}
+
+header .logo-container {
+  padding-top: 30px;
+}
+
+header .logo-container img {
+  max-width: 250px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+header nav ul {
+  margin-top: 20px;
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 0;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #EFEDEE;
+  font-weight: bold;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+  color: #3D91BE;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.card {
+  width: 30%;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: #EFEDEE;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  width: 50px;
+  margin-bottom: 15px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form input,
+form textarea {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form button {
+  padding: 10px;
+  background-color: #3D91BE;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #0A3144;
+  transition: background-color 0.3s ease;
+}
+
+hr {
+  border: none;
+  height: 2px;
+  background: linear-gradient(to right, #3D91BE, #0A3144);
+  margin: 40px 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 10px; 
+}
